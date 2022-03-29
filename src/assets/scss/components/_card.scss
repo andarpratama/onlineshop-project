@@ -1,0 +1,11 @@
+
+.card {
+    width: 256px;
+    height: 310px;
+    background: red;
+    margin-right: 12px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}

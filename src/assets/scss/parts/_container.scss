@@ -1,0 +1,13 @@
+@import '../mixins/responsive';
+
+.container {
+    margin: auto 18px;
+
+    @include breakpoint(lg){
+        margin: auto 32px;
+    }
+
+    @include breakpoint(xl){
+        margin: auto 52px;
+    }
+}

@@ -1,0 +1,27 @@
+@import '../mixins/responsive';
+
+.banner {
+    // 1440 => 676
+    // 1024 => 480
+    // 768 => 360
+    // 375 => 551
+
+    width: 100%;
+    height: 651px;
+    background: red;
+
+    @include breakpoint(md){
+        height: 460px;
+    }
+    @include breakpoint(lg){
+        height: 580px;
+    }
+    @include breakpoint(xl){
+        height: 676px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
